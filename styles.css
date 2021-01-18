@@ -128,17 +128,20 @@ body {
 .card__profile {
   position: absolute;
   left: 34.5%;
-  bottom: 57%;
+  bottom: 63%;
   border: 5px solid white;
   border-radius: 50%;
+ 
 }
 .card__body-text {
-  margin-top: 72px;
+  margin-top: 75px;
+  margin-bottom: 8px;
 }
 .card__name {
   margin-right: 8.5px;
   margin-bottom: 9px;
   text-align: center;
+  margin-top: 24px;
 }
 .card__age {
   margin-left: 3px;
@@ -162,8 +165,9 @@ body {
   justify-content: space-between;
   /* align-items: center; */
   height: 40px;
-  width: 233px;
+  width: 249px;
   list-style: none;
+  margin: 24px 54px 24px 47px;
 }
 
 .card__list-item {
